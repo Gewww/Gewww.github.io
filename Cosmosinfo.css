@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    background: radial-gradient(ellipse at bottom, #141e2b 0%, #0e0f15 100%);
+    margin: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    min-height: 800px;
+  }
+canvas{
+    position: absolute;
+    top: 0;
+}
+#div1{
+    height: 500px;
+    width: 55%;
+    padding: 20px;
+    background-color: #0d1a2ace;
+    border-radius: 20px;
+    position: absolute; 
+    top: 10%;
+    left: 5%;
+    z-index: 99;
+}
+
+#p1{
+    font-family:'Ubuntu','sans serif' ;
+    color: antiquewhite;
+    font-size: 30px;
+}
+#p2{
+    font-family:'Ubuntu','sans serif' ;
+    color:#141e2b;
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+#info{
+    height: 500px;
+    width: 25%;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0.634);
+    z-index: -1;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+}
+#photo{
+    height: 115px;
+    width: 128px;
+    background-image:url(saturn2.png);
+    z-index: 999;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    animation-name: photo;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes photo{
+    0%{top: 0%;}
+    50%{top: 10px;}
+    100%{top:0%;}
+}
+#gmail{
+    height:40px;
+    width: 40px;
+    background-color:rgba(240, 248, 255, 0.008) ;
+    border-radius: 5px;
+    position: absolute;
+    top: 45%;
+    left: 6%;
+    font-size: 35px;
+}
+#mailtxt{
+    position: absolute;
+    top: 8%;
+    left: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'ubuntu';
+}
+#ing{
+    height:40px;
+    width: 40px;
+    background-color:rgba(240, 248, 255, 0.008) ;
+    border-radius: 5px;
+    position: absolute;
+    top: 55%;
+    left: 7%;
+    font-size: 35px;
+}
+#ingtxt{
+    position: absolute;
+    top: 8%;
+    left: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'ubuntu';
+}
+#tg{
+    height:40px;
+    width: 40px;
+    background-color:rgba(240, 248, 255, 0.008) ;
+    border-radius: 5px;
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    font-size: 35px;
+}
+#tgtxt{
+    position: absolute;
+    top: 8%;
+    left: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'ubuntu';
+}
